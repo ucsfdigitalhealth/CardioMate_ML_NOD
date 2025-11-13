@@ -89,7 +89,7 @@ python preprocess.py --participant_id 31
 ### **3. Train models**
 
 ``` bash
-python train.py --participant_id 31 --models xgb,attn --verbose
+python train.py --participant_id 23 --train_days 17 --batch 32 --verbose --drop stress_std
 ```
 
 Pipeline outputs will be stored under:
