@@ -1,0 +1,31 @@
+Per-participant AUROC (row-bootstrap B=1000):
+PID 10: 0.577 ±0.082 (95% CI 0.422–0.728)
+PID 15: 0.639 ±0.056 (95% CI 0.526–0.746)
+PID 16: 0.657 ±0.087 (95% CI 0.473–0.824)
+PID 17: NA (too few cases)
+PID 18: 0.542 ±0.244 (95% CI 0.000–0.965)
+PID 20: 0.692 ±0.168 (95% CI 0.333–0.979)
+PID 22: 0.607 ±0.112 (95% CI 0.382–0.806)
+PID 23: 0.348 ±0.108 (95% CI 0.141–0.560)
+PID 24: 0.409 ±0.105 (95% CI 0.215–0.603)
+PID 25: 0.808 ±0.049 (95% CI 0.708–0.893)
+PID 26: 0.651 ±0.054 (95% CI 0.537–0.754)
+PID 30: 0.760 ±0.042 (95% CI 0.676–0.838)
+PID 31: 0.523 ±0.057 (95% CI 0.415–0.637)
+PID 32: 0.494 ±0.114 (95% CI 0.272–0.711)
+PID 33: 0.768 ±0.105 (95% CI 0.541–0.945)
+PID 34: 0.614 ±0.290 (95% CI 0.000–1.000)
+PID 35: 0.519 ±0.114 (95% CI 0.276–0.743)
+PID 36: 0.477 ±0.258 (95% CI 0.000–1.000)
+PID 39: 0.508 ±0.375 (95% CI 0.000–1.000)
+PID 40: 0.204 ±0.113 (95% CI 0.000–0.450)
+
+Best XGB params: {'adasyn__sampling_strategy': 0.7, 'xgb__learning_rate': 0.01, 'xgb__max_depth': 3, 'xgb__n_estimators': 200}
+Best LSTM val_auc: 0.641
+
+Ensemble α: 0.30 | Global AUROC: 0.647
+Optimal thr: 0.69 | Sens 0.47 | Spec 0.74
+
+Per-participant AUROC:
+Row-bootstrap AUROC 0.646 ±0.016 (95% CI 0.614–0.677)
+Cluster-bootstrap AUROC 0.534 ±0.047 (95% CI 0.441–0.620)

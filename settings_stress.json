@@ -1,0 +1,19 @@
+[
+  {"pid": 10, "train_days": 18, "drop": []},
+  {"pid": 15, "train_days": 20, "drop": []},
+  {"pid": 16, "train_days": 20, "drop": []},
+  {"pid": 17, "train_days": 4,  "drop": []},
+  {"pid": 18, "train_days": 4,  "drop": []},
+  {"pid": 20, "train_days": 17, "drop": []},
+  {"pid": 22, "train_days": 11, "drop": []},
+  {"pid": 23, "train_days": 17, "drop": []},
+  {"pid": 24, "train_days": 8,  "drop": []},
+  {"pid": 25, "train_days": 20, "drop": []},
+  {"pid": 26, "train_days": 16, "drop": []},
+  {"pid": 30, "train_days": 20, "drop": []},
+  {"pid": 31, "train_days": 20, "drop": []},
+  {"pid": 34, "train_days": 6,  "drop": []},
+  {"pid": 35, "train_days": 8,  "drop": []},
+  {"pid": 36, "train_days": 25, "drop": []},
+  {"pid": 39, "train_days": 20, "drop": []}
+]

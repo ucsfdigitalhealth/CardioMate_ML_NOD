@@ -1,0 +1,136 @@
+Best val_auc So Far: 0.7075065970420837
+
+
+Total elapsed time: 00h 20m 30s
+🔹 Best LSTM val_auc: 0.708
+🔹 Extracting global attention/latent/context…
+WARNING:tensorflow:5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7e017b496440> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 15 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7e017b494040> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+🔹 Best α = 0.40 | Global AUROC = 0.713
+
+AUROC (row-bootstrap) 0.713 ±0.018 (95% CI 0.676–0.746)
+AUROC (cluster-bootstrap) 0.656 ±0.017 (95% CI 0.625–0.689)
+
+Threshold 0.00 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.01 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.02 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.03 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.04 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.05 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.06 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.07 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.08 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.09 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.10 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.11 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.12 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.13 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.14 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.15 | Sens 1.00 | Spec 0.00 | Youden 0.00
+Threshold 0.16 | Sens 1.00 | Spec 0.01 | Youden 0.01
+Threshold 0.17 | Sens 1.00 | Spec 0.03 | Youden 0.03
+Threshold 0.18 | Sens 0.99 | Spec 0.05 | Youden 0.04
+Threshold 0.19 | Sens 0.99 | Spec 0.08 | Youden 0.07
+Threshold 0.20 | Sens 0.98 | Spec 0.11 | Youden 0.09
+Threshold 0.21 | Sens 0.96 | Spec 0.13 | Youden 0.10
+Threshold 0.22 | Sens 0.96 | Spec 0.16 | Youden 0.12
+Threshold 0.23 | Sens 0.96 | Spec 0.18 | Youden 0.15
+Threshold 0.24 | Sens 0.96 | Spec 0.21 | Youden 0.17
+Threshold 0.25 | Sens 0.95 | Spec 0.24 | Youden 0.19
+Threshold 0.26 | Sens 0.94 | Spec 0.26 | Youden 0.20
+Threshold 0.27 | Sens 0.93 | Spec 0.28 | Youden 0.22
+Threshold 0.28 | Sens 0.93 | Spec 0.30 | Youden 0.22
+Threshold 0.29 | Sens 0.89 | Spec 0.33 | Youden 0.22
+Threshold 0.30 | Sens 0.88 | Spec 0.35 | Youden 0.23
+Threshold 0.31 | Sens 0.88 | Spec 0.37 | Youden 0.25
+Threshold 0.32 | Sens 0.86 | Spec 0.39 | Youden 0.25
+Threshold 0.33 | Sens 0.85 | Spec 0.40 | Youden 0.26
+Threshold 0.34 | Sens 0.83 | Spec 0.42 | Youden 0.25
+Threshold 0.35 | Sens 0.82 | Spec 0.45 | Youden 0.26
+Threshold 0.36 | Sens 0.81 | Spec 0.47 | Youden 0.28
+Threshold 0.37 | Sens 0.81 | Spec 0.49 | Youden 0.30
+Threshold 0.38 | Sens 0.80 | Spec 0.52 | Youden 0.32
+Threshold 0.39 | Sens 0.77 | Spec 0.54 | Youden 0.31
+Threshold 0.40 | Sens 0.76 | Spec 0.56 | Youden 0.32
+Threshold 0.41 | Sens 0.75 | Spec 0.58 | Youden 0.33
+Threshold 0.42 | Sens 0.73 | Spec 0.60 | Youden 0.33
+Threshold 0.43 | Sens 0.73 | Spec 0.62 | Youden 0.34
+Threshold 0.44 | Sens 0.71 | Spec 0.63 | Youden 0.33
+Threshold 0.45 | Sens 0.69 | Spec 0.64 | Youden 0.33
+Threshold 0.46 | Sens 0.68 | Spec 0.65 | Youden 0.33
+Threshold 0.47 | Sens 0.66 | Spec 0.67 | Youden 0.33
+Threshold 0.48 | Sens 0.64 | Spec 0.68 | Youden 0.32
+Threshold 0.49 | Sens 0.63 | Spec 0.70 | Youden 0.33
+Threshold 0.50 | Sens 0.61 | Spec 0.71 | Youden 0.33
+Threshold 0.51 | Sens 0.59 | Spec 0.73 | Youden 0.31
+Threshold 0.52 | Sens 0.58 | Spec 0.74 | Youden 0.32
+Threshold 0.53 | Sens 0.55 | Spec 0.77 | Youden 0.32
+Threshold 0.54 | Sens 0.54 | Spec 0.78 | Youden 0.32
+Threshold 0.55 | Sens 0.47 | Spec 0.80 | Youden 0.27
+Threshold 0.56 | Sens 0.41 | Spec 0.82 | Youden 0.23
+Threshold 0.57 | Sens 0.39 | Spec 0.83 | Youden 0.22
+Threshold 0.58 | Sens 0.34 | Spec 0.85 | Youden 0.19
+Threshold 0.59 | Sens 0.32 | Spec 0.87 | Youden 0.19
+Threshold 0.60 | Sens 0.29 | Spec 0.88 | Youden 0.17
+Threshold 0.61 | Sens 0.25 | Spec 0.89 | Youden 0.15
+Threshold 0.62 | Sens 0.24 | Spec 0.90 | Youden 0.14
+Threshold 0.63 | Sens 0.21 | Spec 0.91 | Youden 0.12
+Threshold 0.64 | Sens 0.19 | Spec 0.92 | Youden 0.11
+Threshold 0.65 | Sens 0.17 | Spec 0.94 | Youden 0.11
+Threshold 0.66 | Sens 0.15 | Spec 0.94 | Youden 0.09
+Threshold 0.67 | Sens 0.14 | Spec 0.95 | Youden 0.09
+Threshold 0.68 | Sens 0.13 | Spec 0.96 | Youden 0.09
+Threshold 0.69 | Sens 0.13 | Spec 0.97 | Youden 0.10
+Threshold 0.70 | Sens 0.11 | Spec 0.97 | Youden 0.08
+Threshold 0.71 | Sens 0.11 | Spec 0.97 | Youden 0.08
+Threshold 0.72 | Sens 0.10 | Spec 0.98 | Youden 0.08
+Threshold 0.73 | Sens 0.09 | Spec 0.98 | Youden 0.08
+Threshold 0.74 | Sens 0.09 | Spec 0.99 | Youden 0.08
+Threshold 0.75 | Sens 0.09 | Spec 0.99 | Youden 0.08
+Threshold 0.76 | Sens 0.07 | Spec 0.99 | Youden 0.07
+Threshold 0.77 | Sens 0.06 | Spec 0.99 | Youden 0.06
+Threshold 0.78 | Sens 0.05 | Spec 1.00 | Youden 0.05
+Threshold 0.79 | Sens 0.04 | Spec 1.00 | Youden 0.04
+Threshold 0.80 | Sens 0.04 | Spec 1.00 | Youden 0.04
+Threshold 0.81 | Sens 0.04 | Spec 1.00 | Youden 0.04
+Threshold 0.82 | Sens 0.03 | Spec 1.00 | Youden 0.03
+Threshold 0.83 | Sens 0.02 | Spec 1.00 | Youden 0.02
+Threshold 0.84 | Sens 0.01 | Spec 1.00 | Youden 0.01
+Threshold 0.85 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.86 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.87 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.88 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.89 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.90 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.91 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.92 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.93 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.94 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.95 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.96 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.97 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.98 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 0.99 | Sens 0.00 | Spec 1.00 | Youden 0.00
+Threshold 1.00 | Sens 0.00 | Spec 1.00 | Youden 0.00
+
+🔹 Optimal thr 0.43 | Sens 0.73 | Spec 0.62
+
+Per-participant AUROC (row-bootstrap B=1000):
+PID 10: 0.692 ±0.063 (95% CI 0.557–0.811)
+PID 15: 0.742 ±0.057 (95% CI 0.622–0.847)
+PID 16: 0.599 ±0.098 (95% CI 0.408–0.801)
+PID 17: 0.250 ±0.157 (95% CI 0.000–0.571)
+PID 18: 0.685 ±0.185 (95% CI 0.304–1.000)
+PID 20: 0.706 ±0.060 (95% CI 0.576–0.815)
+PID 22: 0.553 ±0.229 (95% CI 0.191–0.911)
+PID 23: 0.540 ±0.128 (95% CI 0.267–0.756)
+PID 24: 0.429 ±0.150 (95% CI 0.041–0.703)
+PID 25: 0.725 ±0.077 (95% CI 0.564–0.863)
+PID 26: 0.753 ±0.090 (95% CI 0.557–0.907)
+PID 30: 0.564 ±0.064 (95% CI 0.437–0.681)
+PID 31: 0.880 ±0.039 (95% CI 0.798–0.947)
+PID 34: 0.578 ±0.262 (95% CI 0.000–1.000)
+PID 35: 0.448 ±0.037 (95% CI 0.377–0.521)
+PID 36: 0.401 ±0.106 (95% CI 0.197–0.618)
+PID 39: 0.967 ±0.015 (95% CI 0.933–0.993)
+

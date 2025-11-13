@@ -1,0 +1,131 @@
+Total elapsed time: 00h 03m 25s
+Total tuner elapsed time: 00h 03m 15s
+🔹 Best val_auc So Far: 0.817
+🔹 Best LSTM hyperparameters: {'lstm_units': 128, 'dropout_rate': 0.2, 'lstm_units_2': 96, 'attention_variant': 'multihead', 'dense_units': 16, 'dense_reg': 0.1, 'learning_rate': 0.0005, 'num_heads': 1, 'key_dim': 16}
+
+🔹 Best Ensemble Weights: Alpha = 0.50, Beta = 0.50, AUROC = 0.837
+
+🔹 Threshold scan:
+Threshold: 0.00 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.01 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.02 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.03 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.04 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.05 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.06 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.07 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.08 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.09 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.10 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.11 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.12 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.13 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.14 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.15 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.16 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.17 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.18 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.19 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.20 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.21 | Sensitivity: 1.00 | Specificity: 0.00 | Youden Index: 0.00
+Threshold: 0.22 | Sensitivity: 0.98 | Specificity: 0.00 | Youden Index: -0.02
+Threshold: 0.23 | Sensitivity: 0.98 | Specificity: 0.00 | Youden Index: -0.02
+Threshold: 0.24 | Sensitivity: 0.98 | Specificity: 0.07 | Youden Index: 0.05
+Threshold: 0.25 | Sensitivity: 0.98 | Specificity: 0.07 | Youden Index: 0.05
+Threshold: 0.26 | Sensitivity: 0.98 | Specificity: 0.07 | Youden Index: 0.05
+Threshold: 0.27 | Sensitivity: 0.98 | Specificity: 0.07 | Youden Index: 0.05
+Threshold: 0.28 | Sensitivity: 0.97 | Specificity: 0.07 | Youden Index: 0.04
+Threshold: 0.29 | Sensitivity: 0.95 | Specificity: 0.07 | Youden Index: 0.02
+Threshold: 0.30 | Sensitivity: 0.95 | Specificity: 0.07 | Youden Index: 0.02
+Threshold: 0.31 | Sensitivity: 0.95 | Specificity: 0.07 | Youden Index: 0.02
+Threshold: 0.32 | Sensitivity: 0.95 | Specificity: 0.14 | Youden Index: 0.09
+Threshold: 0.33 | Sensitivity: 0.95 | Specificity: 0.14 | Youden Index: 0.09
+Threshold: 0.34 | Sensitivity: 0.93 | Specificity: 0.14 | Youden Index: 0.07
+Threshold: 0.35 | Sensitivity: 0.93 | Specificity: 0.21 | Youden Index: 0.15
+Threshold: 0.36 | Sensitivity: 0.91 | Specificity: 0.21 | Youden Index: 0.13
+Threshold: 0.37 | Sensitivity: 0.91 | Specificity: 0.29 | Youden Index: 0.20
+Threshold: 0.38 | Sensitivity: 0.91 | Specificity: 0.29 | Youden Index: 0.20
+Threshold: 0.39 | Sensitivity: 0.90 | Specificity: 0.36 | Youden Index: 0.25
+Threshold: 0.40 | Sensitivity: 0.90 | Specificity: 0.43 | Youden Index: 0.33
+Threshold: 0.41 | Sensitivity: 0.88 | Specificity: 0.50 | Youden Index: 0.38
+Threshold: 0.42 | Sensitivity: 0.88 | Specificity: 0.57 | Youden Index: 0.45
+Threshold: 0.43 | Sensitivity: 0.88 | Specificity: 0.57 | Youden Index: 0.45
+Threshold: 0.44 | Sensitivity: 0.88 | Specificity: 0.57 | Youden Index: 0.45
+Threshold: 0.45 | Sensitivity: 0.88 | Specificity: 0.57 | Youden Index: 0.45
+Threshold: 0.46 | Sensitivity: 0.88 | Specificity: 0.64 | Youden Index: 0.52
+Threshold: 0.47 | Sensitivity: 0.88 | Specificity: 0.64 | Youden Index: 0.52
+Threshold: 0.48 | Sensitivity: 0.88 | Specificity: 0.71 | Youden Index: 0.59
+Threshold: 0.49 | Sensitivity: 0.86 | Specificity: 0.79 | Youden Index: 0.65
+Threshold: 0.50 | Sensitivity: 0.83 | Specificity: 0.79 | Youden Index: 0.61
+Threshold: 0.51 | Sensitivity: 0.83 | Specificity: 0.79 | Youden Index: 0.61
+Threshold: 0.52 | Sensitivity: 0.83 | Specificity: 0.79 | Youden Index: 0.61
+Threshold: 0.53 | Sensitivity: 0.83 | Specificity: 0.79 | Youden Index: 0.61
+Threshold: 0.54 | Sensitivity: 0.83 | Specificity: 0.79 | Youden Index: 0.61
+Threshold: 0.55 | Sensitivity: 0.83 | Specificity: 0.79 | Youden Index: 0.61
+Threshold: 0.56 | Sensitivity: 0.83 | Specificity: 0.79 | Youden Index: 0.61
+Threshold: 0.57 | Sensitivity: 0.83 | Specificity: 0.86 | Youden Index: 0.68
+Threshold: 0.58 | Sensitivity: 0.83 | Specificity: 0.86 | Youden Index: 0.68
+Threshold: 0.59 | Sensitivity: 0.83 | Specificity: 0.86 | Youden Index: 0.68
+Threshold: 0.60 | Sensitivity: 0.81 | Specificity: 0.86 | Youden Index: 0.67
+Threshold: 0.61 | Sensitivity: 0.79 | Specificity: 0.86 | Youden Index: 0.65
+Threshold: 0.62 | Sensitivity: 0.78 | Specificity: 0.86 | Youden Index: 0.63
+Threshold: 0.63 | Sensitivity: 0.78 | Specificity: 0.86 | Youden Index: 0.63
+Threshold: 0.64 | Sensitivity: 0.78 | Specificity: 0.86 | Youden Index: 0.63
+Threshold: 0.65 | Sensitivity: 0.76 | Specificity: 0.86 | Youden Index: 0.62
+Threshold: 0.66 | Sensitivity: 0.72 | Specificity: 0.86 | Youden Index: 0.58
+Threshold: 0.67 | Sensitivity: 0.72 | Specificity: 0.86 | Youden Index: 0.58
+Threshold: 0.68 | Sensitivity: 0.72 | Specificity: 0.86 | Youden Index: 0.58
+Threshold: 0.69 | Sensitivity: 0.72 | Specificity: 0.86 | Youden Index: 0.58
+Threshold: 0.70 | Sensitivity: 0.71 | Specificity: 0.86 | Youden Index: 0.56
+Threshold: 0.71 | Sensitivity: 0.67 | Specificity: 0.86 | Youden Index: 0.53
+Threshold: 0.72 | Sensitivity: 0.67 | Specificity: 0.86 | Youden Index: 0.53
+Threshold: 0.73 | Sensitivity: 0.62 | Specificity: 0.86 | Youden Index: 0.48
+Threshold: 0.74 | Sensitivity: 0.62 | Specificity: 0.86 | Youden Index: 0.48
+Threshold: 0.75 | Sensitivity: 0.60 | Specificity: 0.86 | Youden Index: 0.46
+Threshold: 0.76 | Sensitivity: 0.60 | Specificity: 0.86 | Youden Index: 0.46
+Threshold: 0.77 | Sensitivity: 0.60 | Specificity: 0.86 | Youden Index: 0.46
+Threshold: 0.78 | Sensitivity: 0.60 | Specificity: 0.93 | Youden Index: 0.53
+Threshold: 0.79 | Sensitivity: 0.55 | Specificity: 0.93 | Youden Index: 0.48
+Threshold: 0.80 | Sensitivity: 0.55 | Specificity: 0.93 | Youden Index: 0.48
+Threshold: 0.81 | Sensitivity: 0.47 | Specificity: 0.93 | Youden Index: 0.39
+Threshold: 0.82 | Sensitivity: 0.41 | Specificity: 0.93 | Youden Index: 0.34
+Threshold: 0.83 | Sensitivity: 0.38 | Specificity: 0.93 | Youden Index: 0.31
+Threshold: 0.84 | Sensitivity: 0.36 | Specificity: 0.93 | Youden Index: 0.29
+Threshold: 0.85 | Sensitivity: 0.28 | Specificity: 1.00 | Youden Index: 0.28
+Threshold: 0.86 | Sensitivity: 0.16 | Specificity: 1.00 | Youden Index: 0.16
+Threshold: 0.87 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 0.88 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 0.89 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 0.90 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 0.91 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 0.92 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 0.93 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 0.94 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 0.95 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 0.96 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 0.97 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 0.98 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 0.99 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+Threshold: 1.00 | Sensitivity: 0.00 | Specificity: 1.00 | Youden Index: 0.00
+
+🔹 Best Threshold in [0,1]: 0.57
+🔹 Final Sensitivity (Recall): 0.828
+🔹 Final Specificity: 0.857
+
+🔹 AUROC (row-bootstrap) 0.835 ±0.058 (95% CI 0.713–0.936)
+[Youden thr 0.57] Sens 0.82±0.05, Spec 0.86±0.10
+
+🔹 Ensemble Weight Grid Search (AUROC):
+Alpha: 0.00, Beta: 1.00, AUROC: 0.817
+Alpha: 0.10, Beta: 0.90, AUROC: 0.820
+Alpha: 0.20, Beta: 0.80, AUROC: 0.826
+Alpha: 0.30, Beta: 0.70, AUROC: 0.826
+Alpha: 0.40, Beta: 0.60, AUROC: 0.831
+Alpha: 0.50, Beta: 0.50, AUROC: 0.837
+Alpha: 0.60, Beta: 0.40, AUROC: 0.836
+Alpha: 0.70, Beta: 0.30, AUROC: 0.834
+Alpha: 0.80, Beta: 0.20, AUROC: 0.823
+Alpha: 0.90, Beta: 0.10, AUROC: 0.807
+Alpha: 1.00, Beta: 0.00, AUROC: 0.743
+
+Bootstrapped CIs for all thresholds → bootstrap_threshold_stats.csv

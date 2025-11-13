@@ -1,0 +1,11 @@
+🧹 Preprocess hp15: python preprocess.py --participant_id 15 --bp_sys_thresh 130 --bp_dia_thresh 80
+/home/ali/Desktop/CardioMate_New/preprocess.py:124: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  df_merged['time_since_last_BP_spike'].ffill(inplace=True)
+Removed 8 record(s) on 2024-03-25 from hp/hp15/blood_pressure_readings_ID15_cleaned.csv
+Removed 8 record(s) on 2024-03-25 from hp/hp15/questionnaire_responses_ID15.csv
+✅ Saved processed data to processed/hp15/processed_bp_prediction_data.csv

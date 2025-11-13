@@ -1,0 +1,8 @@
+participant,drop_group,AUROC
+hp16,time_features,0.471–0.803)
+hp16,step_features,0.597–0.870)
+hp16,hr_features,0.480–0.816)
+hp16,stress_features,0.466–0.780)
+hp16,cumulative,0.561–0.867)
+hp16,ratios,0.533–0.827)
+hp16,bp_lags,0.604–0.880)

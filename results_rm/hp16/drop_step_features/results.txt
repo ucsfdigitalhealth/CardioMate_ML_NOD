@@ -1,0 +1,29 @@
+Total elapsed time: 00h 03m 17s
+Total tuner elapsed time: 00h 03m 12s
+🔹 Best val_auc So Far: 0.6348484754562378
+🔹 Best LSTM hyperparameters: {'lstm_units': 192, 'dropout_rate': 0.4, 'lstm_units_2': 112, 'attention_variant': 'custom', 'dense_units': 48, 'dense_reg': 0.1, 'learning_rate': 0.0005, 'num_heads': 3, 'key_dim': 32}
+
+🔹 Ensemble Weight Grid Search:
+Alpha: 0.00, Beta: 1.00, AUROC: 0.602
+Alpha: 0.10, Beta: 0.90, AUROC: 0.730
+Alpha: 0.20, Beta: 0.80, AUROC: 0.745
+Alpha: 0.30, Beta: 0.70, AUROC: 0.747
+Alpha: 0.40, Beta: 0.60, AUROC: 0.747
+Alpha: 0.50, Beta: 0.50, AUROC: 0.744
+Alpha: 0.60, Beta: 0.40, AUROC: 0.745
+Alpha: 0.70, Beta: 0.30, AUROC: 0.745
+Alpha: 0.80, Beta: 0.20, AUROC: 0.745
+Alpha: 0.90, Beta: 0.10, AUROC: 0.745
+Alpha: 1.00, Beta: 0.00, AUROC: 0.746
+
+🔹 Best Threshold in [0,1]: 0.40
+🔹 Final Sensitivity (Recall): 0.773
+🔹 Final Specificity: 0.700
+Total training time: 00h 03m 17s
+
+AUROC (row-bootstrap) 0.742 ±0.070 (95% CI 0.597–0.870)
+[Youden thr 0.40]  Sens 0.77±0.09 | Spec 0.70±0.09
+
+🔹 BP Spike Counts Before Resampling:
+   - Training Set: 28 spikes (50.91%)
+   - Test Set:     22 spikes (42.31%)
